@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #E1D4C9;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header {
+    grid-row: 2;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ul-header, .ul-footer {
+    list-style-type: none;
+    display: flex;
+    gap: 5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #665F55;
+    border-radius: 40px;
+}
+
+img {
+    padding: 0;
+}
+
+.theme-toggle 
+.theme-switch-hover {
+    display: none;
+}
+
+.theme-toggle:hover 
+.theme-switch-default {
+    display: none;
+}
+
+.theme-toggle:hover 
+.theme-switch-hover {
+    display: block;
+}
+
+button#theme-toggle, 
+.slider-btn, 
+.menu-page, 
+.app-button, 
+.google-play-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.control-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section {
+    background-image: url(images/img-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+.hero-section h2, 
+p,
+footer li,
+footer a,
+footer .contact,
+footer span {
+    color: #E1D4C9;
+}
+
+.hero-section span, 
+.about-section span, 
+.app-section span,
+footer h3 {
+    color: #B0907A;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.gallery img {
+    height: auto;
+    object-fit: cover;
+}
+
+
+
