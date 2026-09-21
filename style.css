@@ -30,7 +30,9 @@ header {
     gap: 20px;
 }
 
-.ul-header, .ul-footer {
+.ul-header, 
+.ul-footer,
+.ul-catalog {
     list-style-type: none;
     display: flex;
     gap: 5rem;
@@ -97,7 +99,8 @@ footer span {
 .hero-section span, 
 .about-section span, 
 .app-section span,
-footer h3 {
+footer h3,
+.catalog-span {
     color: #B0907A;
 }
 
