@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="load-components.js" defer></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <main>
+        <section class="slider-section">
+            <div class="slider-container">
+                <h1>Choose your <span>favorite</span> coffee</h1>
+                <button class="slider-btn slider-prev" onclick="scrollSlider(-1)">
+                    <img class="img-default" src="images/pointers/Vector-prev-dark.png">
+                    <img class="img-hover" src="images/pointers/Vector-prev-light.png">
+                </button>
+                <div id="sliderTrack" class="slider-track">
+                    <div class="slider-item">
+                        <img src="images/coffee-slider-1.png" alt="coffee1">
+                        <h3>S’mores Frappuccino</h3>
+                        <h5>
+                            This new drink takes an espresso and mixes it with brown sugar
+                            and cinnamon before being topped with oat milk.
+                        </h5>
+                        <h3><data value="$5.50">$5.50</data></h3>
+                    </div>
+                    <div class="slider-item">
+                        <img src="images/coffee-slider-2.png" alt="coffee2">
+                        <h3>Caramel Macchiato</h3>
+                        <h5>
+                            Fragrant and unique classic espresso with rich caramel-peanut syrup, with
+                            cream under whipped thick foam.
+                        </h5>
+                        <h3><data value="$5.50">$5.50</data></h3>
+                    </div>
+                    <div class="slider-item">
+                        <img src="images/coffee-slider-3.png" alt="coffee3">
+                        <h3>Ice coffee</h3>
+                        <h5>
+                            Fragrant and unique classic espresso with rich caramel-peanut syrup, with
+                            cream under whipped thick foam.
+                        </h5>
+                        <h3><data value="$5.50">$4.50</data></h3>
+                    </div>
+                    <button class="slider-btn slider-next" onclick="scrollSlider(1)">
+                        <img class="img-default" src="images/pointers/Vector-next-dark.png">
+                        <img class="img-hover" src="images/pointers/Vector-next-light.png">
+                    </button>
+                </div>
+                <div class="slider-indicators">
+                    <div class="indicator active"></div>
+                    <div class="indicator"></div>
+                    <div class="indicator"></div>
+                </div>
+            </div>
+        </section>
+        <section class="hero-section">
+            <div>
+                <h2><span>Enjoy</span> premium coffee at our charming cafe</h2>
+                <p>With its inviting atmosphere and delicious coffee options,
+                    the Coffee House Resource is a popular destination for coffee lovers
+                    and those seeking a warm and inviting space to enjoy their favorite beverage.
+                </p>
+                <button class="menu-page">Menu
+                    <img src="images/coffee-cup.png" alt="coffee-cap" class="cap">
+                </button>
+            </div>
+        </section>
+        <section class="about-section">
+            <h2>
+                Resource is <span>perfect and cozy place</span> where you can enjoy
+                a variety of hot beverages, relax, catch up with friends,
+                or get some work done.
+            </h2>
+            <div class="gallery">
+                <img src="images/about-1.jpg" alt="about1" class="zoom-img">
+                <img src="images/about-2.jpg" alt="about2" class="zoom-img">
+                <img src="images/about-3.jpg" alt="about3" class="zoom-img">
+                <img src="images/about-4.jpg" alt="about4" class="zoom-img">
+            </div>
+        </section>
+        <section class="app-section">
+            <div class="app-info">
+                <h2><span>Download</span> our app to start ordering</h2>
+                <h5>Download the Resource app today and experience the comfort
+                    of ordering your favorite coffee from wherever you are
+                </h5>
+                <div>
+                    <button class="app-button application">
+                        <img class="img-default" src="images/icones/Icon-apple-dark.png">
+                        <img class="img-hover" src="images/icones/Icon-apple-light.png">
+                        <span class="app-text">
+                            <span class="text-top">Available on the</span>
+                            <span class="text-bottom">App Store</span>
+                        </span>
+                    </button>
+                    <button class="google-play-button application">
+                        <img class="img-default" src="images/icones/Icon-google-dark.png">
+                        <img class="img-hover" src="images/icones/Icon-google-light.png">
+                        <span class="app-text">
+                            <span class="text-top">Available on</span>
+                            <span class="text-bottom">Google Play</span>
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+            <div>
+                <img src="images/mobile-screens.png">
+            </div>
+        </section>
+    </main>
+    <div id="footer-placeholder"></div>
+</body>
+
+</html>
