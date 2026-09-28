@@ -14,14 +14,23 @@
     <div class="container">
         <div id="header-placeholder"></div>
         <main>
-            <section class="slider-section">
+            <section id="slider" class="slider-section">
                 <div class="slider-container">
                     <h1>Choose your <span>favorite</span> coffee</h1>
-                    <button class="slider-btn slider-prev" onclick="scrollSlider(-1)">
-                        <img class="img-default" src="images/pointers/Vector-prev-dark.png">
-                        <img class="img-hover" src="images/pointers/Vector-prev-light.png">
+                    <button id="slider-prev" class="slider-btn slider-prev">
+                        <img class="img-default" src="images/pointers/Vector-prev-dark.png" alt="">
+                        <img class="img-hover" src="images/pointers/Vector-prev-light.png" alt="">
                     </button>
                     <div id="sliderTrack" class="slider-track">
+                        <div class="slider-item">
+                            <img src="images/coffee-slider-3.png" alt="coffee3">
+                            <h3>Ice coffee</h3>
+                            <h5>
+                                Fragrant and unique classic espresso with rich caramel-peanut syrup, with
+                                cream under whipped thick foam.
+                            </h5>
+                            <h3><data value="$5.50">$4.50</data></h3>
+                        </div>
                         <div class="slider-item">
                             <img src="images/coffee-slider-1.png" alt="coffee1">
                             <h3>S’mores Frappuccino</h3>
@@ -49,10 +58,19 @@
                             </h5>
                             <h3><data value="$5.50">$4.50</data></h3>
                         </div>
+                        <div class="slider-item">
+                            <img src="images/coffee-slider-1.png" alt="coffee1">
+                            <h3>S’mores Frappuccino</h3>
+                            <h5>
+                                This new drink takes an espresso and mixes it with brown sugar
+                                and cinnamon before being topped with oat milk.
+                            </h5>
+                            <h3><data value="$5.50">$5.50</data></h3>
+                        </div>
                     </div>
-                    <button class="slider-btn slider-next" onclick="scrollSlider(1)">
-                        <img class="img-default" src="images/pointers/Vector-next-dark.png">
-                        <img class="img-hover" src="images/pointers/Vector-next-light.png">
+                    <button class="slider-btn slider-next">
+                        <img class="img-default" src="images/pointers/Vector-next-dark.png" alt="">
+                        <img class="img-hover" src="images/pointers/Vector-next-light.png" alt="">
                     </button>
                     <div class="slider-indicators">
                         <div class="indicator active"></div>
@@ -61,19 +79,21 @@
                     </div>
                 </div>
             </section>
-            <section class="hero-section">
+            <section id="hero" class="hero-section">
                 <div>
                     <h2><span>Enjoy</span> premium coffee at our charming cafe</h2>
                     <p>With its inviting atmosphere and delicious coffee options,
                         the Coffee House Resource is a popular destination for coffee lovers
                         and those seeking a warm and inviting space to enjoy their favorite beverage.
                     </p>
-                    <button class="menu-page">Menu
-                        <img src="images/caps/coffee-cup-light.png" alt="coffee-cap" class="cap">
-                    </button>
+                    <a href="catalog.html">
+                        <button class="menu-page">Menu
+                            <img src="images/caps/coffee-cup-light.png" alt="coffee-cap" class="cap">
+                        </button>
+                    </a>
                 </div>
             </section>
-            <section class="about-section">
+            <section id="about" class="about-section">
                 <h2>
                     Resource is <span>perfect and cozy place</span> where you can enjoy
                     a variety of hot beverages, relax, catch up with friends,
@@ -86,7 +106,7 @@
                     <img src="images/about-4.jpg" alt="about4" class="zoom-img">
                 </div>
             </section>
-            <section class="app-section">
+            <section id="app" class="app-section">
                 <div class="app-info">
                     <h2><span>Download</span> our app to start ordering</h2>
                     <h5>Download the Resource app today and experience the comfort
